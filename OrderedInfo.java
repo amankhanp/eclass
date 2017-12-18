@@ -4,11 +4,11 @@ public class OrderedInfo {
 	public static void main(String[] args){
 			Scanner sc = new Scanner(System.in);
 			System.out.print("ENTER FirstName,LastName,Designation,DOB : ");
-			String first=sc.nextLine();
+			String info=sc.nextLine();
 			System.out.println();
-			System.out.println("You have entered : " +first);
+			System.out.println("You have entered : " +info);
 			System.out.println();
-			String seperatedList[] = first.split(",");
+			String seperatedList[] = info.split(",");
 			
 			for(String list : seperatedList){
 				//System.out.println(list);
